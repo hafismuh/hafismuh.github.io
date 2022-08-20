@@ -6,26 +6,15 @@
     <description>Recent content in Posts on Fizz.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jul 2022 14:44:05 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 02:33:49 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basic Unix Commands-line (CLI)</title>
-      <link>https://hafismuh.github.io/post/basic-unix-commands-line/</link>
-      <pubDate>Sat, 23 Jul 2022 14:44:05 +0700</pubDate>
+      <title>New Hope</title>
+      <link>https://hafismuh.github.io/post/new-hope/</link>
+      <pubDate>Sun, 21 Aug 2022 02:33:49 +0700</pubDate>
       
-      <guid>https://hafismuh.github.io/post/basic-unix-commands-line/</guid>
-      <description>CLI merupakan suatu program yang digunakan untuk menjalankan suatu perintah berbasis text.
-Syntax Command  pwd - untuk mengetahui posisi direktori saat ini. ls - untuk melihat isi direktori cd - berpindah direktori  cd ./direktori - berpindah ke di cd .. - kembali ke direktori sebelumnya  cat - melihat isi file touch - membuat sebuah file mkdir - membuat sebuah direktori cp - copy  cp direktori tujuan  mv - move  mv direktori tujuan mv -D ubah nama  rm - remove  </description>
-    </item>
-    
-    <item>
-      <title>Mengenal Git Version Control</title>
-      <link>https://hafismuh.github.io/post/mengenal-git-version-control/</link>
-      <pubDate>Sun, 05 Jun 2022 21:26:18 +0700</pubDate>
-      
-      <guid>https://hafismuh.github.io/post/mengenal-git-version-control/</guid>
-      <description>Git merupakan salah satu version control system yang dapat membantu memudahkan dalam pengerjaan suatu project pengembangan aplikasi.
-Ada beberapa fungsi yang sudah saya gunakan dalam proses hosting blog ini di Github.
- Git init  </description>
+      <guid>https://hafismuh.github.io/post/new-hope/</guid>
+      <description>Hey there! I have to decide that I will never learn web programming anymore. I never set my target to become a web developer, programmer, or to be UI/UX designer. That is because my job as an IT Support had never related into it.
+I&amp;rsquo;ve been working as an IT Support for 5 years more now. I have spent about 4.5 years working on banking services (ATM, CRM, EDC, and related devices and users) in the previous company.</description>
     </item>
     
     <item>

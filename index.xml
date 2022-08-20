@@ -5,52 +5,17 @@
     <description>Recent content on Fizz.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jul 2022 14:44:05 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 02:33:49 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-    <title>Basic Unix Commands-line (CLI)</title>
-    <link>https://hafismuh.github.io/post/basic-unix-commands-line/</link>
-    <pubDate>Sat, 23 Jul 2022 14:44:05 +0700</pubDate>
+    <title>New Hope</title>
+    <link>https://hafismuh.github.io/post/new-hope/</link>
+    <pubDate>Sun, 21 Aug 2022 02:33:49 +0700</pubDate>
     
-    <guid>https://hafismuh.github.io/post/basic-unix-commands-line/</guid>
+    <guid>https://hafismuh.github.io/post/new-hope/</guid>
     <description>
-        &lt;p&gt;CLI merupakan suatu program yang digunakan untuk menjalankan suatu perintah berbasis text.&lt;/p&gt;
-&lt;H3&gt;Syntax Command&lt;/H3&gt;
-&lt;ul&gt;
-    &lt;li&gt;pwd -&gt; untuk mengetahui posisi direktori saat ini.&lt;/li&gt;
-    &lt;li&gt;ls -&gt; untuk melihat isi direktori&lt;/li&gt;
-    &lt;li&gt;cd -&gt; berpindah direktori&lt;/li&gt;
-        &lt;ul&gt;
-            &lt;li&gt;cd ./direktori -&gt; berpindah ke di&lt;/li&gt;
-            &lt;li&gt;cd .. -&gt; kembali ke direktori sebelumnya&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;li&gt;cat -&gt; melihat isi file&lt;/li&gt;
-    &lt;li&gt;touch -&gt; membuat sebuah file&lt;/li&gt;
-    &lt;li&gt;mkdir -&gt; membuat sebuah direktori&lt;/li&gt;
-    &lt;li&gt;cp -&gt; copy&lt;/li&gt;
-        &lt;ul&gt;
-            &lt;li&gt;cp direktori tujuan&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;li&gt;mv -&gt; move&lt;/li&gt;
-        &lt;ul&gt;
-            &lt;li&gt;mv direktori tujuan&lt;/li&gt;
-            &lt;li&gt;mv -D ubah nama&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;li&gt;rm -&gt; remove&lt;/li&gt;
-&lt;/ul&gt; 
-
-    </description>
-    </item>
-    
-    <item>
-    <title>Mengenal Git Version Control</title>
-    <link>https://hafismuh.github.io/post/mengenal-git-version-control/</link>
-    <pubDate>Sun, 05 Jun 2022 21:26:18 +0700</pubDate>
-    
-    <guid>https://hafismuh.github.io/post/mengenal-git-version-control/</guid>
-    <description>
-        &lt;p&gt;Git merupakan salah satu version control system yang dapat membantu memudahkan dalam pengerjaan suatu project pengembangan aplikasi.&lt;/p&gt;
-&lt;p&gt;Ada beberapa fungsi yang sudah saya gunakan dalam proses hosting blog ini di Github.&lt;/p&gt;
-&lt;H3&gt; Git init &lt;/H3&gt;
+        &lt;p&gt;Hey there! I have to decide that I will never learn web programming anymore. I never set my target to become a web developer, programmer, or to be UI/UX designer. That is because my job as an IT Support had never related into it.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been working as an IT Support for 5 years more now. I have spent about 4.5 years working on banking services (ATM, CRM, EDC, and related devices and users) in the previous company. After I passed a probationary period at my current company, I realized that I need an improvement.&lt;/p&gt;
+&lt;p&gt;This will be a new hope for me to survive and continue this journey. I hope, I will.&lt;/p&gt;
 
     </description>
     </item>
