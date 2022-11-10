@@ -5,7 +5,19 @@
     <description>Recent content on Fizz.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 02:33:49 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 03:59:13 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+    <title>Install Ubuntu di Windows dengan WSL</title>
+    <link>https://hafismuh.github.io/post/ubuntu-on-wsl/</link>
+    <pubDate>Fri, 11 Nov 2022 03:59:13 +0700</pubDate>
+    
+    <guid>https://hafismuh.github.io/post/ubuntu-on-wsl/</guid>
+    <description>
+        &lt;p&gt;Windows Subsystem for Linux (WSL) merupakan fitur windows dimana kita dapat menjalankan sistem operasi Linux di Windows dalam waktu yang sama tanpa perlu menggunakan virtual machine atau dual-boot.&lt;/p&gt;
+
+    </description>
+    </item>
+    
     <item>
     <title>New Hope</title>
     <link>https://hafismuh.github.io/post/new-hope/</link>
