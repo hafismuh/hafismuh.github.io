@@ -8,22 +8,37 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Nov 2022 03:59:13 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install Ubuntu di Windows dengan WSL</title>
-      <link>https://hafismuh.github.io/post/ubuntu-on-wsl/</link>
+      <title>Linux di Windows dengan WSL</title>
+      <link>https://hafismuh.github.io/post/linux-on-wsl/</link>
       <pubDate>Fri, 11 Nov 2022 03:59:13 +0700</pubDate>
       
-      <guid>https://hafismuh.github.io/post/ubuntu-on-wsl/</guid>
-      <description>Windows Subsystem for Linux (WSL) merupakan fitur windows dimana kita dapat menjalankan sistem operasi Linux di Windows dalam waktu yang sama tanpa perlu menggunakan virtual machine atau dual-boot.</description>
+      <guid>https://hafismuh.github.io/post/linux-on-wsl/</guid>
+      <description>Windows Subsystem for Linux (WSL) merupakan fitur Windows dimana kita dapat menjalankan sistem operasi Linux di Windows dalam waktu yang sama tanpa perlu menggunakan virtual machine atau dual-boot.
+WSL dapat dijalankan di Windows 10 versi 2004 ke atas atau di Windows 11 sehingga kita dapat menginstall linux distro seperti Ubuntu, Debian, dan lainnya, termasuk menggunakan aplikasi Linux, utilitas, dan tentu saja bash command-line langsung di Windows.
+ WSL terbaru saat ini sudah versi WSL2, untuk mengetahui perbedaan performance WSL dengan WSL2 silakan baca WSL vs WSL2 Performance</description>
     </item>
     
     <item>
-      <title>New Hope</title>
-      <link>https://hafismuh.github.io/post/new-hope/</link>
+      <title>Hugo Blog x Github Pages</title>
+      <link>https://hafismuh.github.io/post/hugoxgithub/</link>
       <pubDate>Sun, 21 Aug 2022 02:33:49 +0700</pubDate>
       
-      <guid>https://hafismuh.github.io/post/new-hope/</guid>
-      <description>Hey there! I have to decide that I will never learn web programming anymore. I never set my target to become a web developer, programmer, or to be UI/UX designer. That is because my job as an IT Support had never related into it.
-I&amp;rsquo;ve been working as an IT Support for 5 years more now. I have spent about 4.5 years working on banking services (ATM, CRM, EDC, and related devices and users) in the previous company.</description>
+      <guid>https://hafismuh.github.io/post/hugoxgithub/</guid>
+      <description>Hugo adalah static site generator open-source yang memudahkan membangun wesite dari biasanya. Hugo merupakan framework dari bahasa pemrograman Go, atau biasa disebut Golang.
+Blog ini dibangun dengan Hugo dan saya tidak perlu memahami lebih dalam Golang karena terdapat banyak tema yang bisa digunakan. Blog ini di-hosting di Github Pages, yang mana memerlukan akun Github. Satu lagi, untuk mendeploy Blog ini saya menggunakan Git version control.
+Jadi, hal yang diperlukan adalah:</description>
+    </item>
+    
+    <item>
+      <title>Git x Github</title>
+      <link>https://hafismuh.github.io/post/git-x-github/</link>
+      <pubDate>Sat, 23 Jul 2022 14:44:05 +0700</pubDate>
+      
+      <guid>https://hafismuh.github.io/post/git-x-github/</guid>
+      <description>Git merupakan Version Control System yang digunakan sebagai tools sedangkan Github merupakan tempat menyimpan kode sehingga kombinasi keduanya banyak digunakan dalam pengembangan suatu aplikasi atau perangkat lunak.
+   Instalasi Git  Buka terminal, lalu ketik
+1  sudo apt-get install git   Cek versi git apakah sudah terinstal : git &amp;ndash;version
+   Konfigurasi Git  Konfigurasi username dan email bertujuan untuk menyesesuikan data user pada Github.</description>
     </item>
     
     <item>

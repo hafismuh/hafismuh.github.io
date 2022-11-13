@@ -7,27 +7,163 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Nov 2022 03:59:13 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-    <title>Install Ubuntu di Windows dengan WSL</title>
-    <link>https://hafismuh.github.io/post/ubuntu-on-wsl/</link>
+    <title>Linux di Windows dengan WSL</title>
+    <link>https://hafismuh.github.io/post/linux-on-wsl/</link>
     <pubDate>Fri, 11 Nov 2022 03:59:13 +0700</pubDate>
     
-    <guid>https://hafismuh.github.io/post/ubuntu-on-wsl/</guid>
+    <guid>https://hafismuh.github.io/post/linux-on-wsl/</guid>
     <description>
-        &lt;p&gt;Windows Subsystem for Linux (WSL) merupakan fitur windows dimana kita dapat menjalankan sistem operasi Linux di Windows dalam waktu yang sama tanpa perlu menggunakan virtual machine atau dual-boot.&lt;/p&gt;
+        &lt;p&gt;&lt;img loading=&#34;lazy&#34; 
+    src=&#34;https://hafismuh.github.io/wsl.png&#34; 
+    alt=&#34;wsl&#34; 
+     
+    width=199 
+    height=&#34;112&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;Windows Subsystem for Linux (WSL) merupakan fitur Windows dimana kita dapat menjalankan sistem operasi Linux di Windows dalam waktu yang sama tanpa perlu menggunakan virtual machine atau dual-boot.&lt;/p&gt;
+&lt;p&gt;WSL dapat dijalankan di Windows 10 versi 2004 ke atas atau di Windows 11 sehingga kita dapat menginstall linux distro seperti Ubuntu, Debian, dan lainnya, termasuk menggunakan aplikasi Linux, utilitas, dan tentu saja bash command-line langsung di Windows.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;WSL terbaru saat ini sudah versi WSL2, untuk mengetahui perbedaan performance WSL dengan WSL2 silakan baca&lt;/em&gt; &lt;a href=&#34;https://howto.lintel.in/wsl-vs-wsl-2-performance/&#34;&gt;WSL vs WSL2 Performance&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sesuai penjelasan di atas, kali ini kita akan mencoba install salah satu distro Linux, yaitu Ubuntu.&lt;/p&gt;
+&lt;h5 id=&#34;install-wsl&#34;&gt;
+    &lt;a href=&#34;#install-wsl&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Install WSL
+&lt;/h5&gt;
+&lt;p&gt;Buka Windows PowerShell (Run as Administrator), lalu masukkan perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;wsl&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;-install&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Restart komputer untuk menyelesaikan proses instalasinya.&lt;/p&gt;
+&lt;h5 id=&#34;install-ubuntu&#34;&gt;
+    &lt;a href=&#34;#install-ubuntu&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Install Ubuntu
+&lt;/h5&gt;
+&lt;p&gt;Ketik perintah install di Windows Powershell,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;wsl&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;-install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-d&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ubuntu&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Setelah instalasi selesai, tentukan username dan password yang akan digunakan.&lt;/p&gt;
+&lt;p&gt;Lakukan update untuk memperbarui sistem pada ubuntu dengan perintah &lt;strong&gt;sudo apt update&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nah, setelah menyelesaikan konfigurasi Ubuntu, kita dapati bahwa Ubuntu yang kita jalankan ini berupa command-line interface (CLI) dengan tampilan yang tidak begitu bagus. Silakan download Windows Terminal di Microsoft Store untuk costumize interface yang lebih modern dan powerful.&lt;/p&gt;
 
     </description>
     </item>
     
     <item>
-    <title>New Hope</title>
-    <link>https://hafismuh.github.io/post/new-hope/</link>
+    <title>Hugo Blog x Github Pages</title>
+    <link>https://hafismuh.github.io/post/hugoxgithub/</link>
     <pubDate>Sun, 21 Aug 2022 02:33:49 +0700</pubDate>
     
-    <guid>https://hafismuh.github.io/post/new-hope/</guid>
+    <guid>https://hafismuh.github.io/post/hugoxgithub/</guid>
     <description>
-        &lt;p&gt;Hey there! I have to decide that I will never learn web programming anymore. I never set my target to become a web developer, programmer, or to be UI/UX designer. That is because my job as an IT Support had never related into it.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve been working as an IT Support for 5 years more now. I have spent about 4.5 years working on banking services (ATM, CRM, EDC, and related devices and users) in the previous company. After I passed a probationary period at my current company, I realized that I need an improvement.&lt;/p&gt;
-&lt;p&gt;This will be a new hope for me to survive and continue this journey. I hope, I will.&lt;/p&gt;
+        &lt;p&gt;Hugo adalah static site generator open-source yang memudahkan membangun wesite dari biasanya. Hugo merupakan framework dari bahasa pemrograman Go, atau biasa disebut Golang.&lt;/p&gt;
+&lt;p&gt;Blog ini dibangun dengan Hugo dan saya tidak perlu memahami lebih dalam Golang karena terdapat banyak tema yang bisa digunakan. Blog ini di-hosting di Github Pages, yang mana memerlukan akun Github. Satu lagi, untuk mendeploy Blog ini saya menggunakan Git version control.&lt;/p&gt;
+&lt;p&gt;Jadi, hal yang diperlukan adalah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Git&lt;/li&gt;
+&lt;li&gt;Install Hugo&lt;/li&gt;
+&lt;li&gt;Membuat akun Github&lt;/li&gt;
+&lt;/ul&gt;
+
+    </description>
+    </item>
+    
+    <item>
+    <title>Git x Github</title>
+    <link>https://hafismuh.github.io/post/git-x-github/</link>
+    <pubDate>Sat, 23 Jul 2022 14:44:05 +0700</pubDate>
+    
+    <guid>https://hafismuh.github.io/post/git-x-github/</guid>
+    <description>
+        &lt;p&gt;Git merupakan Version Control System yang digunakan sebagai tools sedangkan Github merupakan tempat menyimpan kode sehingga kombinasi keduanya banyak digunakan dalam pengembangan suatu aplikasi atau perangkat lunak.&lt;/p&gt;
+&lt;h4 id=&#34;instalasi-git&#34;&gt;
+    &lt;a href=&#34;#instalasi-git&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Instalasi Git
+&lt;/h4&gt;
+&lt;p&gt;Buka terminal, lalu ketik&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Cek versi git apakah sudah terinstal : &lt;strong&gt;git &amp;ndash;version&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;konfigurasi-git&#34;&gt;
+    &lt;a href=&#34;#konfigurasi-git&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Konfigurasi Git
+&lt;/h4&gt;
+&lt;p&gt;Konfigurasi username dan email bertujuan untuk menyesesuikan data user pada Github. Begitu pun pada saat membuat repositori antara keduanya haruslah sama.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name “username”
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email “username@mail.com”
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Cek konfigurasi apakah sudah benar : &lt;strong&gt;git config &amp;ndash;list&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;perintah-di-git&#34;&gt;
+    &lt;a href=&#34;#perintah-di-git&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Perintah di Git
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;git init untuk inisialisasi atau memperkenalkan direktori git.&lt;/li&gt;
+&lt;li&gt;git add untuk menambahkan suatu file atau semua file ke dalam kerangka kerja&lt;/li&gt;
+&lt;li&gt;git status untuk melihat setiap perubahan yang dilakukan, bertanda merah apabila belum di add dan hijau apabila sudah siap untuk di commit.&lt;/li&gt;
+&lt;li&gt;git commit -m “first commit” untuk memberi keterangan dari file yang sudah ditambahkan (git add) atau tanda dari file tersebut. (-m) yang berarti message.&lt;/li&gt;
+&lt;li&gt;git remote add origin “link repo .git di github untuk memberi akses remot ke repository di github&lt;/li&gt;
+&lt;li&gt;git push -u origin master untuk mendistribusikan file kerja ke repo github.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; 
+    src=&#34;https://hafismuh.github.io/git-way.gif&#34; 
+    alt=&#34;wsl&#34; 
+     
+    width=740 
+    height=&#34;483&#34;  /&gt;&lt;/p&gt;
 
     </description>
     </item>
