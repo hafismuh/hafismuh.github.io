@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Fizz.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jan 2023 18:15:13 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2023 14:59:29 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Training MTCNA</title>
+      <link>https://hafismuh.github.io/post/training-mtcna/</link>
+      <pubDate>Tue, 10 Jan 2023 14:59:29 +0700</pubDate>
+      
+      <guid>https://hafismuh.github.io/post/training-mtcna/</guid>
+      <description>Tulisan ini berisikan rangkuman pelatihan Mikrotik yang diadakan di internal kantor untuk mendapatkan sertifikat MTCNA.
+Week 1: IP address Week 2: Client 3 Desember 2022
+Week 3: Client and Server 17 Desember 2022
+Week 4: Routing and Hotspot 7 Januari 2023</description>
+    </item>
+    
     <item>
       <title>Welcome 2023</title>
       <link>https://hafismuh.github.io/post/welcome-2023/</link>

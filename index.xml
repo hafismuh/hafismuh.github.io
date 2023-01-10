@@ -5,7 +5,62 @@
     <description>Recent content on Fizz.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jan 2023 18:15:13 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2023 14:59:29 +0700</lastBuildDate><atom:link href="https://hafismuh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+    <title>Training MTCNA</title>
+    <link>https://hafismuh.github.io/post/training-mtcna/</link>
+    <pubDate>Tue, 10 Jan 2023 14:59:29 +0700</pubDate>
+    
+    <guid>https://hafismuh.github.io/post/training-mtcna/</guid>
+    <description>
+        &lt;p&gt;Tulisan ini berisikan rangkuman pelatihan Mikrotik yang diadakan di internal kantor untuk mendapatkan sertifikat MTCNA.&lt;/p&gt;
+&lt;h2 id=&#34;week-1-ip-address&#34;&gt;
+    &lt;a href=&#34;#week-1-ip-address&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Week 1: IP address
+&lt;/h2&gt;
+&lt;h2 id=&#34;week-2-client&#34;&gt;
+    &lt;a href=&#34;#week-2-client&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Week 2: Client
+&lt;/h2&gt;
+&lt;p&gt;3 Desember 2022&lt;/p&gt;
+&lt;h2 id=&#34;week-3-client-and-server&#34;&gt;
+    &lt;a href=&#34;#week-3-client-and-server&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Week 3: Client and Server
+&lt;/h2&gt;
+&lt;p&gt;17 Desember 2022&lt;/p&gt;
+&lt;h2 id=&#34;week-4-routing-and-hotspot&#34;&gt;
+    &lt;a href=&#34;#week-4-routing-and-hotspot&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Week 4: Routing and Hotspot
+&lt;/h2&gt;
+&lt;p&gt;7 Januari 2023&lt;/p&gt;
+
+    </description>
+    </item>
+    
     <item>
     <title>Welcome 2023</title>
     <link>https://hafismuh.github.io/post/welcome-2023/</link>
