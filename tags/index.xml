@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hafis Muhammad</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on Hafis Muhammad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+    <title>Welcome!</title>
+    <link>https://example.com/post/welcome/</link>
+    <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    <author>Hafis Muhammad</author>
+    <guid>https://example.com/post/welcome/</guid>
+    <description>
+        &lt;p&gt;Hey there! This is my first post using Hugo. Hugo is a static site generator to help you build websites easier than before. I ran this website locally and published it using Github Pages. I would like to write about the making of this blog later. Thank you.&lt;/p&gt;
+
+    </description>
+    </item>
+    
+  </channel>
+</rss>
