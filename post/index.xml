@@ -5,7 +5,25 @@
     <description>Recent content in Posts on Hafis Muhammad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+    <title>Windows System Configuration: Troubleshooting and Monitoring Tools</title>
+    <link>https://example.com/post/windows-troubleshooting/</link>
+    <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+    <author>Hafis Muhammad</author>
+    <guid>https://example.com/post/windows-troubleshooting/</guid>
+    <description>
+        &lt;p&gt;Windows System Configuration will help you to resolving issues, monitoring performance, making a configuration, checking the running servics, etc.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; 
+    src=&#34;https://example.com/post/windows-troubleshooting/launch-tools.jpeg&#34; 
+    alt=&#34;launch-tools&#34; 
+     
+    width=571 
+    height=&#34;385&#34;  /&gt;&lt;/p&gt;
+
+    </description>
+    </item>
+    
     <item>
     <title>How to Install Windows Server 2025 in VMWare Fusion</title>
     <link>https://example.com/post/install-windows-server/</link>
