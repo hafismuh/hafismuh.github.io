@@ -7,19 +7,91 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-    <title>Windows System Configuration: Troubleshooting and Monitoring Tools</title>
+    <title>Windows Troubleshooting and Monitoring Tools</title>
     <link>https://example.com/post/windows-troubleshooting/</link>
     <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
     <author>Hafis Muhammad</author>
     <guid>https://example.com/post/windows-troubleshooting/</guid>
     <description>
-        &lt;p&gt;Windows System Configuration will help you to resolving issues, monitoring performance, making a configuration, checking the running servics, etc.&lt;/p&gt;
+        &lt;h5 id=&#34;system-configuration&#34;&gt;
+    &lt;a href=&#34;#system-configuration&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    System Configuration
+&lt;/h5&gt;
+&lt;p&gt;System Configuration will help you to resolving issues, monitoring performance, making a configuration, checking the running servics, etc. You can launch the tools to make sure what you will do with this feature.&lt;/p&gt;
+&lt;p&gt;You can use this shortut to open the tools by type Windows + Run and enter specific command like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Services -&amp;gt; services.msc&lt;/li&gt;
+&lt;li&gt;Registry -&amp;gt; regedit&lt;/li&gt;
+&lt;li&gt;Programs -&amp;gt; appwizz.cpl&lt;/li&gt;
+&lt;li&gt;Network Connectiomn -&amp;gt; ncpa.cpl&lt;/li&gt;
+&lt;li&gt;Command Prompt -&amp;gt; cmd&lt;/li&gt;
+&lt;li&gt;Direct X Troubleshooter -&amp;gt; dxdiag&lt;/li&gt;
+&lt;li&gt;Windows Version -&amp;gt; winver&lt;/li&gt;
+&lt;li&gt;User Account -&amp;gt; netplwiz&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; 
     src=&#34;https://example.com/post/windows-troubleshooting/launch-tools.jpeg&#34; 
     alt=&#34;launch-tools&#34; 
      
     width=571 
     height=&#34;385&#34;  /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;task-manager&#34;&gt;
+    &lt;a href=&#34;#task-manager&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Task Manager
+&lt;/h5&gt;
+&lt;p&gt;You can monitor your application by resource usage here and background processes that running in your windows.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; 
+    src=&#34;https://example.com/post/windows-troubleshooting/task-manager.jpeg&#34; 
+    alt=&#34;task manager&#34; 
+     
+    width=766 
+    height=&#34;583&#34;  /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;services&#34;&gt;
+    &lt;a href=&#34;#services&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Services
+&lt;/h5&gt;
+&lt;p&gt;You can check the services running or the services that you don&amp;rsquo;t expected to be running here. I have had use this so much when I faced printing issue by restart the &lt;em&gt;print spooler&lt;/em&gt; service back then.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; 
+    src=&#34;https://example.com/post/windows-troubleshooting/services-msc.jpeg&#34; 
+    alt=&#34;services&#34; 
+     
+    width=806 
+    height=&#34;593&#34;  /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;registry&#34;&gt;
+    &lt;a href=&#34;#registry&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Registry
+&lt;/h5&gt;
+&lt;p&gt;I have also had a much issue with the passbook printer not working because sometimes the default printer names has changed, removed, and even I installed a new one but the printer still not response because the old name still there on the registry. So, I removed the printer name in the &lt;em&gt;registry&lt;/em&gt; then reinstalled it.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; 
+    src=&#34;https://example.com/post/windows-troubleshooting/regedit.jpeg&#34; 
+    alt=&#34;registry&#34; 
+     
+    width=754 
+    height=&#34;512&#34;  /&gt;&lt;/p&gt;
 
     </description>
     </item>
